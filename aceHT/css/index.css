@@ -1,0 +1,895 @@
+/*--header--*/
+.header {
+  width: 100%;
+  min-height: 45px;
+  background: #438eb9;
+  color: #fff; }
+  .header .header-l {
+    font-size: 24px;
+    padding-left: 15px;
+    width: auto;
+    height: 100%; }
+    .header .header-l .title {
+      font-size: 24px; }
+    .header .header-l .iconfont1 {
+      font-size: 24px; }
+  .header .header-r {
+    font-size: 16px;
+    width: auto;
+    height: 100%; }
+    .header .header-r .header-r-u {
+      width: 100%;
+      height: 45px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-right: 15px; }
+      .header .header-r .header-r-u li {
+        min-width: 50px;
+        height: 100%;
+        line-height: 45px;
+        padding: 0 8px;
+        border-right: 1px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .header .header-r .header-r-u li .iconfont {
+          font-size: 17px !important; }
+        .header .header-r .header-r-u li span {
+          display: inline-block;
+          width: 17px;
+          height: 19px;
+          text-align: center;
+          position: relative;
+          line-height: 19px;
+          font-size: 14px;
+          border-radius: 50%;
+          left: 4px; }
+        .header .header-r .header-r-u li .num {
+          background: #a0a0a0; }
+        .header .header-r .header-r-u li .num1 {
+          background: #d15b47; }
+        .header .header-r .header-r-u li .num2 {
+          background: #82af6f; }
+      .header .header-r .header-r-u li.header-u-l1 {
+        background: #555555; }
+      .header .header-r .header-r-u li.header-u-l2 {
+        background: #892e65; }
+      .header .header-r .header-r-u li.header-u-l3 {
+        background: #2e8965; }
+      .header .header-r .header-r-u .header-u-last {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right: 10px;
+        background: #62a8d1;
+        border: 0; }
+        .header .header-r .header-r-u .header-u-last .header-u-last-img {
+          border-radius: 100%;
+          border: 2px solid #FFF;
+          max-width: 40px;
+          margin: -4px 8px 0 0; }
+        .header .header-r .header-r-u .header-u-last .header-u-last-s {
+          max-width: 100px;
+          width: auto;
+          display: inline-block;
+          overflow: hidden;
+          height: 100%;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          text-align: left;
+          vertical-align: top;
+          line-height: 15px;
+          border-radius: 0 !important;
+          padding-top: 8px; }
+          .header .header-r .header-r-u .header-u-last .header-u-last-s small {
+            font-size: 85%; }
+        .header .header-r .header-r-u .header-u-last .header-u-last-s1 {
+          display: inline-block;
+          width: 0;
+          height: 0;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          border-top: 7px solid #fff; }
+
+/*----market----*/
+.market {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between; }
+  .market .market-left {
+    width: 190px;
+    min-height: 1000px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2; }
+    .market .market-left .market-left-top {
+      background-color: #fafafa;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+      line-height: 39px;
+      max-height: 41px;
+      margin-bottom: 0;
+      height: auto; }
+      .market .market-left .market-left-top .market-left-top-c {
+        padding-bottom: 4px; }
+        .market .market-left .market-left-top .market-left-top-c button {
+          width: 41px;
+          line-height: 24px;
+          margin-top: -2px;
+          padding: 0;
+          border-width: 4px;
+          text-align: center;
+          color: #fff; }
+        .market .market-left .market-left-top .market-left-top-c .bu1 {
+          background-color: #629b58 !important;
+          border-color: #87b87f; }
+        .market .market-left .market-left-top .market-left-top-c .bu2 {
+          background-color: #6fb3e0 !important;
+          border-color: #6fb3e0; }
+        .market .market-left .market-left-top .market-left-top-c .bu3 {
+          background-color: #ffb752 !important;
+          border-color: #ffb752; }
+        .market .market-left .market-left-top .market-left-top-c .bu4 {
+          background-color: #d15b47 !important;
+          border-color: #d15b47; }
+    .market .market-left .market-left-u {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      background-color: #fff; }
+      .market .market-left .market-left-u li {
+        border-bottom: 1px solid #e5e5e5;
+        height: 38px;
+        line-height: 36px;
+        padding: 0 16px 0 7px; }
+        .market .market-left .market-left-u li i {
+          display: inline-block;
+          vertical-align: middle;
+          min-width: 30px;
+          text-align: center;
+          font-size: 20px;
+          margin-right: 2px; }
+        .market .market-left .market-left-u li span {
+          font-size: 13px; }
+    .market .market-left .market-left-d {
+      border-bottom: 1px solid #e0e0e0;
+      background-color: #f3f3f3;
+      text-align: center;
+      padding: 3px 0;
+      position: relative; }
+      .market .market-left .market-left-d span {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 14px;
+        color: #aaa;
+        border: 1px solid #bbb;
+        padding: 0 5px;
+        line-height: 18px;
+        border-radius: 50%;
+        background-color: #fff; }
+    .market .market-left .market-left-d:before {
+      content: "";
+      display: inline-block;
+      height: 0;
+      border-top: 1px solid #e0e0e0;
+      position: absolute;
+      left: 15px;
+      right: 15px;
+      top: 13px; }
+  .market .market-right {
+    width: 85%;
+    height: auto;
+    background: #FFFFFF; }
+    .market .market-right .market-right-t {
+      border-bottom: 1px solid #e5e5e5;
+      background-color: #f5f5f5;
+      min-height: 41px;
+      padding: 0 12px 0 0;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center; }
+      .market .market-right .market-right-t .market-right-t-u {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0 22px 0 12px;
+        width: 100%; }
+        .market .market-right .market-right-t .market-right-t-u li {
+          padding: 0 5px; }
+        .market .market-right .market-right-t .market-right-t-u .index {
+          color: #4c8fbd; }
+      .market .market-right .market-right-t .market-right-t-f {
+        border: 1px solid #6fb3e0;
+        width: 152px;
+        height: 28px !important;
+        border-radius: 4px !important;
+        font-size: 13px;
+        color: #666 !important;
+        z-index: 11;
+        padding-left: 5px;
+        background: #fff; }
+        .market .market-right .market-right-t .market-right-t-f input {
+          width: 100%;
+          height: 100%;
+          padding-left: 20px;
+          background: url("../images/2017-08-02_111833.png") no-repeat left center; }
+    .market .market-right .market-right-c {
+      width: 97%;
+      margin: 0 auto;
+      height: auto;
+      display: flex;
+      flex-direction: column; }
+      .market .market-right .market-right-c .market-right-c-u {
+        width: 100%;
+        margin-top: 10px;
+        height: 50px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        border-bottom: 1px dashed #ccc;
+        color: #8089a0; }
+        .market .market-right .market-right-c .market-right-c-u .control {
+          font-size: 24px;
+          color: #2679b5;
+          padding-right: 20px; }
+      .market .market-right .market-right-c .market-right-c-u1 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        border: 1px solid #d6e9c6;
+        margin-top: 10px;
+        padding: 15px;
+        background-color: #dff0d8;
+        color: #468847; }
+        .market .market-right .market-right-c .market-right-c-u1 .cha {
+          font-weight: bold;
+          cursor: pointer; }
+      .market .market-right .market-right-c .tubiao {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column; }
+        .market .market-right .market-right-c .tubiao .tubiao-u {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: flex-end;
+          margin-bottom: 20px; }
+          .market .market-right .market-right-c .tubiao .tubiao-u li {
+            height: 286px; }
+          .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 {
+            width: 60%;
+            padding: 0 10px; }
+            .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont {
+              width: 90% !important;
+              height: 100%;
+              margin: 0 auto; }
+              .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-top: 10px; }
+                .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u li {
+                  width: 50%;
+                  height: 66px;
+                  display: flex;
+                  justify-content: space-between;
+                  border: 1px dotted #ccc;
+                  align-items: center;
+                  padding: 8px 3px 6px 9px;
+                  margin-top: -1px; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u li .title {
+                    display: flex;
+                    flex: 1;
+                    padding-left: 8px;
+                    flex-wrap: wrap; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u li .title .title-top {
+                      width: 100%;
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center; }
+                      .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u li .title .title-top .num {
+                        font-size: 20px;
+                        color: #aeca5b; }
+                      .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u li .title .title-top .sp1n {
+                        padding-right: 20px;
+                        font-size: 13px;
+                        color: #77c646;
+                        font-weight: bold;
+                        background: url("../images/2017-08-02_201540.png") no-repeat right center; }
+                      .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u li .title .title-top .sp1n1 {
+                        color: #e4564f;
+                        background: url("../images/2017-08-02_203718.png") no-repeat right center; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u li .title .pinglunb {
+                      width: 100%; }
+              .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u1 {
+                width: 100%;
+                padding: 0 10px;
+                display: flex;
+                height: 52px;
+                margin: 12px auto;
+                justify-content: space-between;
+                align-items: center; }
+                .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u1 li {
+                  width: 33.33%;
+                  height: 100%;
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: center;
+                  border-right: 1px solid #fff;
+                  padding: 4px;
+                  color: #fff;
+                  font-weight: bold; }
+                .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u1 .li1 {
+                  background: #9abc32; }
+                .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u1 .li2 {
+                  background: #6fb3e0; }
+                .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l1 .tubiao-u-l1-cont .tubiao-u-l1-cont-u1 .li3 {
+                  background: #999999; }
+          .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 {
+            width: 40%;
+            height: 260px;
+            border: 1px solid #ccc; }
+            .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-top {
+              width: 100%;
+              min-height: 31px;
+              padding: 0 10px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              border-bottom: 1px solid #ccc;
+              background: #f7f7f7; }
+              .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-top li {
+                height: 100%; }
+              .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-top .laiyuan {
+                font-size: 15px;
+                font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+                color: #669fc7; }
+              .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-top .benzhou {
+                width: 50px;
+                height: 22px;
+                line-height: 22px;
+                color: #fff;
+                background: #428bca;
+                cursor: pointer;
+                text-align: center; }
+            .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-mian {
+              width: 100%;
+              height: 227px;
+              padding: 12px; }
+              .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-mian .bingtu {
+                width: 100%;
+                height: 150px; }
+              .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-mian .hr-double {
+                margin: 8px 0;
+                height: 3px;
+                border-top: 1px solid #e3e3e3;
+                border-bottom: 1px solid #e3e3e3; }
+              .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-mian .clearfix {
+                width: 100%;
+                height: 40px;
+                display: flex;
+                justify-content: flex-start; }
+                .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-mian .clearfix .grid3 {
+                  width: 33%;
+                  padding: 0 2%;
+                  height: 100%;
+                  border-right: 1px solid #ccc;
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: stretch; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-mian .clearfix .grid3 .grid3-img {
+                    padding-right: 10px; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-mian .clearfix .grid3 .gird3-text {
+                    color: #777 !important;
+                    padding-right: 5px; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-mian .clearfix .grid3 .gird3-num {
+                    font-size: 19px; }
+                .market .market-right .market-right-c .tubiao .tubiao-u .tubiao-u-l2 .tubiao-u-l2-mian .clearfix .grid4 {
+                  border: 0; }
+        .market .market-right .market-right-c .tubiao .hr-dotted {
+          width: 100%;
+          margin: 32px 0;
+          height: 1px;
+          border-top: 1px dashed #ccc; }
+        .market .market-right .market-right-c .tubiao .tubiao-u2 {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: flex-end;
+          margin-bottom: 20px; }
+          .market .market-right .market-right-c .tubiao .tubiao-u2 .tubiao-u2, .market .market-right .market-right-c .tubiao .tubiao-u2 .zheXian {
+            width: 50%; }
+          .market .market-right .market-right-c .tubiao .tubiao-u2 li {
+            height: 287px;
+            padding: 0 10px; }
+            .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-top {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              height: 39px;
+              border-bottom: 1px solid #dce8f1; }
+              .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-top h3 {
+                font-weight: lighter;
+                font-size: 18px;
+                color: #4383b4; }
+                .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-top h3 .ico {
+                  color: #ff892a;
+                  padding-right: 10px; }
+              .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-top .xiaLa {
+                height: 35px;
+                width: 35px;
+                line-height: 39px;
+                text-align: center;
+                border-left: 1px solid #ccc;
+                cursor: pointer; }
+            .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont {
+              width: 100%;
+              height: 248px; }
+              .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped {
+                width: 100%;
+                height: 100%;
+                border-collapse: collapse; }
+                .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped thead, .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped tbody {
+                  width: 100%;
+                  height: auto;
+                  text-align: left; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped thead th, .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped thead td, .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped tbody th, .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped tbody td {
+                    border-right: 1px solid #ccc;
+                    text-indent: 10px;
+                    height: 30px; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped thead .last, .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped tbody .last {
+                    border: 0;
+                    text-align: left;
+                    text-indent: 15px; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped thead .last span, .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped tbody .last span {
+                      display: inline-block;
+                      font-size: 12px;
+                      line-height: 20px;
+                      text-align: center !important;
+                      height: 20px;
+                      color: #fff;
+                      background: #3a87ad; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped thead .last .span1, .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped tbody .last .span1 {
+                      background: #3a87ad;
+                      position: relative; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped thead .last .span1::before, .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped tbody .last .span1::before {
+                      position: absolute;
+                      left: -5px;
+                      content: "";
+                      display: inline-block;
+                      border-width: 10px 5px;
+                      border-color: #3a87ad;
+                      border-left-color: transparent !important;
+                      top: 0;
+                      z-index: -1;
+                      border: 1px solid transparent; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped thead .last .span1::after, .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped tbody .last .span1::after {
+                      right: -10px;
+                      border-width: 10px 5px;
+                      border-left-color: red;
+                      display: inline-block;
+                      content: "";
+                      position: absolute;
+                      top: 0;
+                      z-index: -1;
+                      border: 1px solid transparent; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped thead tr, .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped tbody tr {
+                    border-bottom: 1px solid #ccc; }
+                .market .market-right .market-right-c .tubiao .tubiao-u2 li .remen-cont .table-striped tbody tr:nth-of-type(odd) {
+                  background: #f9f9f9; }
+          .market .market-right .market-right-c .tubiao .tubiao-u2 .zheXian .zheXian-cont {
+            width: 100%;
+            height: 220px;
+            margin-top: 5px; }
+        .market .market-right .market-right-c .tubiao .tubiao-u1 {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: space-between;
+          /*------tubiao-u1-box-------*/
+          /*-huihua-*/ }
+          .market .market-right .market-right-c .tubiao .tubiao-u1 li {
+            width: 50%;
+            height: 355px;
+            position: relative;
+            min-height: 1px;
+            padding-right: 12px;
+            padding-left: 12px; }
+          .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box {
+            width: 100%;
+            height: auto;
+            position: relative; }
+            .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-top {
+              width: 100%;
+              height: 39px;
+              border-bottom: 1px solid #dce8f1;
+              display: flex;
+              justify-content: space-between;
+              align-items: center; }
+              .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-top h4 {
+                font-size: 17px;
+                font-weight: normal;
+                color: #4383b4; }
+              .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-top .xuan {
+                display: flex;
+                justify-content: flex-end;
+                width: auto;
+                height: 100%;
+                align-items: center; }
+                .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-top .xuan li {
+                  height: 100%;
+                  cursor: pointer;
+                  margin-bottom: -1px;
+                  width: 60px;
+                  line-height: 38px; }
+                .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-top .xuan .active {
+                  border-right: 1px solid #c5d0dc;
+                  border-left: 1px solid #c5d0dc;
+                  background-color: #FFF;
+                  border-top: 2px solid #4c8fbd; }
+            .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c {
+              padding: 4px;
+              width: 100%;
+              height: auto; }
+              .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box1 {
+                padding: 8px 6px;
+                height: auto;
+                width: 100%; }
+                .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box1 h2 {
+                  font-size: 17px;
+                  color: #69aa46 !important;
+                  font-weight: normal; }
+                .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box1 .box1-u {
+                  width: 100%;
+                  height: auto;
+                  display: flex;
+                  align-items: center;
+                  flex-direction: column; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box1 .box1-u li {
+                    padding: 9px;
+                    width: 100%;
+                    height: auto;
+                    border: 1px solid #ccc;
+                    margin-top: -1px;
+                    display: flex;
+                    align-items: center;
+                    margin-left: -1px;
+                    border-left: 0; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box1 .box1-u li input {
+                      width: 18px;
+                      height: 18px;
+                      background: #fff;
+                      cursor: pointer;
+                      color: #32a3ce;
+                      border: none; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box1 .box1-u .li1 {
+                    border-left: 3px solid  #e8b110; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box1 .box1-u .li2 {
+                    border-left: 3px solid  #d53f40; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box1 .box1-u .li3 {
+                    border-left: 3px solid  #4f99c6; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box1 .box1-u .li4 {
+                    border-left: 3px solid  #abbac3; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box1 .box1-u .li5 {
+                    border-left: 3px solid  #DDD; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box1 .box1-u .li6 {
+                    border-left: 3px solid  #9abc32; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box1 .box1-u .li7 {
+                    border-left: 3px solid  #4f99c6; }
+              .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 {
+                padding: 8px 6px;
+                height: auto;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                position: absolute;
+                top: 39px; }
+                .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-item {
+                  width: 40%;
+                  padding: 2px;
+                  margin: 3px 0;
+                  float: left;
+                  border-bottom: 1px solid #ccc;
+                  min-height: 66px;
+                  display: flex;
+                  justify-content: flex-start; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-item .user {
+                    width: auto;
+                    height: auto; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-item .user img {
+                      width: 42px;
+                      border: 2px solid #ccc;
+                      border-radius: 50%; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-item .body {
+                    width: auto;
+                    margin-left: 10px;
+                    margin-right: 12px;
+                    position: relative; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-item .body .name {
+                      line-height: 18px;
+                      height: 18px;
+                      margin-bottom: 0; }
+                      .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-item .body .name a {
+                        display: inline-block;
+                        max-width: 100px;
+                        max-height: 18px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        word-break: break-all;
+                        color: #428bca; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-item .body .time {
+                      font-size: 11px;
+                      font-weight: bold;
+                      color: #69aa46; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-item .body .box2-item-d {
+                      display: flex;
+                      justify-content: flex-start; }
+                      .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-item .body .box2-item-d .label {
+                        padding: .2em .4em .3em;
+                        font-size: 11px;
+                        line-height: 1;
+                        height: 18px;
+                        background-color: #f89406 !important;
+                        color: #fff; }
+                      .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-item .body .box2-item-d .position-relative {
+                        margin-left: 5px; }
+                      .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-item .body .box2-item-d .icon {
+                        background-color: #fee188 !important;
+                        border-color: #fee188;
+                        padding: 0 4px; }
+                        .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-item .body .box2-item-d .icon .iconfont {
+                          font-size: 13px;
+                          color: #963 !important; }
+                .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-bottom {
+                  width: 100%;
+                  display: inline-block;
+                  text-align: center; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-bottom a {
+                    color: #2a6496; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-bottom .iconfont {
+                    color: #69aa46 !important; }
+                .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box2 .box2-bottom1 {
+                  width: 100%;
+                  margin-top: 8px;
+                  height: 3px;
+                  border-top: 1px solid #ccc;
+                  border-bottom: 1px solid #ccc; }
+              .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box3 {
+                padding: 8px 6px;
+                height: auto;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                position: absolute;
+                top: 39px; }
+                .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box3 .box3-item {
+                  width: 100%;
+                  height: auto;
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: center;
+                  padding-right: 3px;
+                  min-height: 66px; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box3 .box3-item .user1 {
+                    width: auto;
+                    height: auto; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box3 .box3-item .user1 img {
+                      width: 40px;
+                      height: 40px;
+                      border-radius: 50%;
+                      border: 2px solid #fff; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box3 .box3-item .text {
+                    width: auto;
+                    height: 100%;
+                    padding-left: 10px;
+                    border-bottom: 1px solid #ccc; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box3 .box3-item .text .name {
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center; }
+                      .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box3 .box3-item .text .name .sp1 {
+                        color: #428bca; }
+                      .market .market-right .market-right-c .tubiao .tubiao-u1 .tubiao-u1-box .tubiao-u1-box-c .box3 .box3-item .text .name .sp2 {
+                        color: #69aa46;
+                        font-weight: bold; }
+          .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua {
+            width: 100%;
+            height: 399px;
+            border: 1px solid #ccc;
+            position: relative; }
+            .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-top {
+              min-height: 39px;
+              border-bottom: 1px solid #ccc;
+              line-height: 39px;
+              background: #f3f3f3;
+              position: relative;
+              color: #669fc7;
+              text-indent: 10px;
+              font-size: 17px;
+              top: 0; }
+            .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-c {
+              width: 100%;
+              height: 300px;
+              overflow: scroll;
+              padding: 9px 9px 0; }
+              .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-c .huiHua-c-item {
+                padding-bottom: 14px;
+                position: relative;
+                display: flex;
+                min-height: 66px;
+                justify-content: flex-start;
+                align-items: center; }
+                .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-c .huiHua-c-item .user {
+                  width: 42px;
+                  height: 55px;
+                  z-index: 999; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-c .huiHua-c-item .user img {
+                    border-radius: 50%;
+                    border: 2px solid #ccc; }
+                .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-c .huiHua-c-item .body {
+                  margin-left: 10px;
+                  flex: 1;
+                  border: 1px solid #dde4ed;
+                  padding: 0 10px;
+                  position: relative; }
+                  .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-c .huiHua-c-item .body .name {
+                    display: flex;
+                    justify-content: space-between; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-c .huiHua-c-item .body .name .spqn1 {
+                      color: #428bca; }
+                    .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-c .huiHua-c-item .body .name .spqn2 {
+                      color: #69aa46 !important; }
+                .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-c .huiHua-c-item .body:before {
+                  content: "";
+                  display: block;
+                  position: absolute;
+                  left: -7px;
+                  top: 11px;
+                  width: 8px;
+                  height: 8px;
+                  border: 2px solid #dde4ed;
+                  background-color: #FFF;
+                  box-sizing: content-box;
+                  transform: rotate(-45deg); }
+              .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-c .huiHua-c-item:before {
+                position: absolute;
+                display: block;
+                content: "";
+                top: 0;
+                bottom: 0;
+                left: 19px;
+                width: 3px;
+                max-width: 3px;
+                background-color: #e1e6ed; }
+              .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-c div:last-child:before {
+                display: none; }
+            .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-b {
+              width: 100%;
+              height: 57px;
+              border-top: 1px solid #ccc;
+              padding: 10px;
+              display: flex;
+              justify-content: space-between; }
+              .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-b input {
+                height: 100%; }
+              .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-b .inpout1 {
+                width: 80%;
+                border-top: 1px solid #ccc;
+                border-left: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                text-indent: 10px; }
+              .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-b .inpout2 {
+                width: 20%;
+                border-top: 2px solid #ccc;
+                border-right: 2px solid #ccc;
+                border-bottom: 2px solid #ccc;
+                background: #6fb3e0;
+                color: #fff;
+                cursor: pointer; }
+              .market .market-right .market-right-c .tubiao .tubiao-u1 .huiHua .huiHua-b .inpout2:hover {
+                background-color: #6fb3e0 !important;
+                border-color: #6fb3e0; }
+
+@media screen and (min-width: 992px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; } }
+@media (max-width: 992px) and (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+  .market-left {
+    display: none; }
+
+  .market-right {
+    width: 100% !important;
+    height: auto;
+    background: #FFFFFF;
+    overflow: hidden; }
+
+  .market-right-t-u {
+    justify-content: flex-start !important; } }
+@media screen and (max-width: 767px) and (min-width: 506px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+  .market-left {
+    display: none; }
+
+  .market-right {
+    width: 100% !important;
+    height: auto;
+    background: #FFFFFF;
+    overflow: hidden; }
+
+  .market-right-t-u {
+    justify-content: flex-start !important; }
+
+  .tubiao-u, .tubiao-u2, .tubiao-u1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    .tubiao-u .tubiao-u-l1, .tubiao-u .tubiao-u-l2, .tubiao-u .remen, .tubiao-u .zheXian, .tubiao-u .remen-cont, .tubiao-u .box, .tubiao-u2 .tubiao-u-l1, .tubiao-u2 .tubiao-u-l2, .tubiao-u2 .remen, .tubiao-u2 .zheXian, .tubiao-u2 .remen-cont, .tubiao-u2 .box, .tubiao-u1 .tubiao-u-l1, .tubiao-u1 .tubiao-u-l2, .tubiao-u1 .remen, .tubiao-u1 .zheXian, .tubiao-u1 .remen-cont, .tubiao-u1 .box {
+      width: 100% !important; } }
+@media screen and (max-width: 505px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%; }
+    .header .header-l {
+      width: 100%;
+      height: 100%; }
+    .header .header-r {
+      width: 100%;
+      height: inherit;
+      border-top: 1px solid #fff; }
+      .header .header-r .header-r-u {
+        display: flex;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        padding: 0 5%;
+        margin: 0 auto;
+        background: #000; }
+
+  .market-right {
+    width: 100% !important;
+    height: auto;
+    background: #FFFFFF;
+    overflow: hidden; }
+
+  .market-right-t-u {
+    justify-content: flex-start !important; }
+
+  .market-left {
+    display: none; }
+
+  .market-right {
+    width: 100% !important;
+    height: auto;
+    background: #FFFFFF;
+    overflow: hidden; }
+
+  .market-right-t-u {
+    justify-content: flex-start !important; }
+
+  .tubiao-u, .tubiao-u2, .tubiao-u1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+    .tubiao-u .tubiao-u-l1, .tubiao-u .tubiao-u-l2, .tubiao-u .remen, .tubiao-u .remen-cont, .tubiao-u .box, .tubiao-u2 .tubiao-u-l1, .tubiao-u2 .tubiao-u-l2, .tubiao-u2 .remen, .tubiao-u2 .remen-cont, .tubiao-u2 .box, .tubiao-u1 .tubiao-u-l1, .tubiao-u1 .tubiao-u-l2, .tubiao-u1 .remen, .tubiao-u1 .remen-cont, .tubiao-u1 .box {
+      width: 100% !important; } }
+
+/*# sourceMappingURL=index.css.map */

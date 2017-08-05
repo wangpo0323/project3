@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+
+/*-----样式重置-------*/
+
+body,h1,h2,h3,h4,h5,h6,a,p,img,ul,ol,dl,dt,dd,input,figure,figcaption{
+    padding:0;margin:0;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+header,nav,main,section,article,aside,footer,img,figure,figcaption{
+    display:block;
+}
+*{
+    box-sizing: border-box;
+}
+
+ul,ol,li{list-style:none;}
+
+img,input,select{border:0;}
+
+input,select{outline:none;background:none;}
+
+body{
+    min-height:100%;
+    font-family: 'Open Sans';
+    font-size:13px;
+    color: #393939;
+    line-height: 1.5;
+    width:100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/***-font字体-***/
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*<i class="iconfont">&#x33;</i>*/

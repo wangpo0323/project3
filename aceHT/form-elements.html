@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link type="text/css" href="css/form-elements.css" rel="stylesheet"/>
+    <link type="text/css" href="css/publick.css" rel="stylesheet"/>
+    <link href='css/fullcalendar.css' rel='stylesheet' />
+    <link href='css/fullcalendar.print.css' rel='stylesheet' media='print' />
+
+</head >
+<body id='body'>
+<!-------header--------->
+<div class="header">
+    <div class="header-l">
+        <p>
+            <i class="iconfont iconfont1">&#xe501;</i>
+            <span class="title">ACE Admin</span>
+        </p>
+    </div>
+    <div class="header-r">
+        <ul class="header-r-u">
+            <li class="header-u-l1">
+                <i class="iconfont">&#xe681;</i>
+                <span class="num">4</span>
+            </li>
+            <li class="header-u-l2">
+                <i class="iconfont">&#xe606;</i>
+                <span  class="num1">8</span>
+            </li>
+            <li class="header-u-l3">
+                <i class="iconfont">&#xe604;</i>
+                <span class="num2">5</span>
+            </li>
+            <li class="header-u-last">
+                <a href="#"><img class="header-u-last-img" src="images/user.jpg"/></a>
+                <span class="header-u-last-s"><small>欢迎光临,<br/></small>Jason</span>
+                <span class="header-u-last-s1"></span>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="market">
+    <!---left--->
+    <div class="market-left">
+        <div class="market-left-top">
+            <div class="market-left-top-c">
+                <button class="bu1">
+                    <i class="iconfont">&#xe6d1;</i>
+                </button>
+                <button class="bu2">
+                    <i class="iconfont">&#xe619;</i>
+                </button>
+                <button class="bu3">
+                    <i class="iconfont">&#xe6fe;</i>
+                </button>
+                <button class="bu4">
+                    <i class="iconfont">&#xe9e3;</i>
+                </button>
+            </div>
+        </div>
+        <ul class="market-left-u">
+            <li>
+                <i class="iconfont">&#xe6b3;</i><span>控制台</span>
+            </li>
+            <li>
+                <i class="iconfont">&#xe625;</i><span>文字排版</span>
+            </li>
+            <li>
+                <i class="iconfont">&#xe622;</i><span>UI组件</span>
+            </li>
+            <li>
+                <i class="iconfont">&#xe677;</i><span>表格</span>
+            </li>
+            <li>
+                <i class="iconfont">&#xe609;</i><span>表单</span>
+            </li>
+            <li>
+                <i class="iconfont">&#xe76d;</i><span>插件</span>
+            </li>
+            <li>
+                <i class="iconfont">&#xe6db;</i><span>日历</span>
+            </li>
+            <li>
+                <i class="iconfont">&#xe64e;</i><span>相册</span>
+            </li>
+            <li>
+                <i class="iconfont">&#xe61a;</i><span>更多页面</span>
+            </li>
+            <li>
+                <i class="iconfont">&#xe687;</i><span>其他页面</span>
+            </li>
+        </ul>
+        <div class="market-left-d">
+            <span><<</span>
+        </div>
+    </div>
+    <!---right---->
+    <div class="market-right">
+        <div class="market-right-t">
+            <ul class="market-right-t-u">
+                <li><i class="iconfont">&#xe9f3;</i></li>
+                <li class="index"><a href="#">Home</a>    &gt;</li>
+                <li>More Pages</li>
+                <li>Invoice</li>
+            </ul>
+            <form class="market-right-t-f" id="form">
+                <input type="text" placeholder="Seach.." id="input"/>
+            </form>
+        </div>
+        <!---market-right-cont--->
+        <div class="market-right-cont">
+            <div class="page-header">
+                <h1>
+                    Full Calendar
+                </h1>
+                <span class="page-header-span">》  with draggable and editable events</span>
+            </div>
+            <div class="full-contian">
+                <!--日历--->
+                <div id='wrap'>
+                    <div id='calendar'></div>
+                    <div id='external-events'>
+                        <h4>Draggable Events</h4>
+                        <div class='external-event external-event1'><i class="iconfont">&#xe606;</i>My Event 1</div>
+                        <div class='external-event external-event2'><i class="iconfont">&#xe606;</i>My Event 2</div>
+                        <div class='external-event external-event3'><i class="iconfont">&#xe606;</i>My Event 3</div>
+                        <div class='external-event external-event4'><i class="iconfont">&#xe606;</i>My Event 4</div>
+                        <div class='external-event external-event5'><i class="iconfont">&#xe606;</i>My Event 5</div>
+                        <div class='external-event external-event6'><i class="iconfont">&#xe606;</i>My Event 6</div>
+                        <div class='external-event external-event7'><i class="iconfont">&#xe606;</i>My Event 7</div>
+                        <p class="p">
+                            <input type='checkbox' id='drop-remove' /> <label for='drop-remove'>remove after drop</label>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--tin--->
+<div class="tanChu">
+    <div class="tanChu-header">
+        <span class="sp1">New Event Title:</span>
+        <button type="button" class="button">X</button>
+    </div>
+    <div class="tanChu-cnter">
+        <input type="text" id="input1"/>
+    </div>
+    <div class="tanChu-bottom">
+        <button class="cancel">cancel</button>
+        <button class="ok">OK</button>
+    </div>
+</div>
+
+</body>
+</html>
+<script src='js/jquery-1.9.1.min.js'></script>
+<script src='js/jquery-ui-1.10.2.custom.min.js'></script>
+<script src='js/fullcalendar.min.js'></script>
+<script src="js/fullcalendae.js"></script>
